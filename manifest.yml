@@ -19,6 +19,8 @@ declared-services:
     plan:  30mb
 applications:
 - name: bluechatter
+  host: bluechatter
+  domain: mybluemix.net
   memory: 128M
   command: node app.js
   services:
