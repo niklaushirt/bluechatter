@@ -20,7 +20,7 @@ declared-services:
 applications:
 - name: bluechatter
   host: bluechatter
-  domain: mybluemix.net
+  domain: mydemo.center
   memory: 128M
   command: node app.js
   services:
