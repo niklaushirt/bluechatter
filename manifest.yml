@@ -18,8 +18,8 @@ declared-services:
     label: rediscloud
     plan:  30mb
 applications:
-- name: bluechatter
-  host: bluechatter
+- name: nikhbluechatter
+  host: nikhbluechatter
   domain: mydemo.center
   memory: 128M
   command: node app.js
